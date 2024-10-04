@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+* Ruby version 3.3.4
 
-* Ruby version
+* Repositorio github: https://github.com/Lainuz/blockbusterapp
 
-* System dependencies
+* Clon github: https://github.com/Lainuz/blockbusterapp.git
 
-* Configuration
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* deploy en render: https://mysite-rmg3.onrender.com
