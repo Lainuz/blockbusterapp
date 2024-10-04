@@ -1,36 +1,7 @@
 <h1>Editar Cliente</h1>
 
-<%= form_with(model: @client) do |form| %>
+<%= render "form", client: @client %>
 
-<div class="card border-primary my-5">
-  <div class="card-body text-center">
-    <div class="row my-3">
-        <label for="nombre" class="col-sm-2 col-form-label">Nombre</label>
-          <div class="col-sm-4">
-            <%= form.text_field :name, class:"form-control" %>
-          </div>
-      </div>
-
-      <div class="row my-3">
-        <label for="edad" class="col-sm-2 col-form-label">Edad</label>
-          <div class="col-sm-4">
-            <%= form.text_field :age, class:"form-control" %>
-          </div>
-      </div>
-
-<div class="row my-3">
-        <label for="edad" class="col-sm-2 col-form-label">Película</label>
-          <div class="col-sm-4">
-            <%= form.select :id_movie, options_for_select(@movies) %>
-          </div>
-      </div>
-
-  </div>
-</div>
-
-<button type="submit" class="btn btn-success">enviar</button>
-
-<% end %>
 
 <div class="my-3">
   <%= link_to "Mostrar cliente", @client, class:"btn btn-primary btn-sm" %> |
